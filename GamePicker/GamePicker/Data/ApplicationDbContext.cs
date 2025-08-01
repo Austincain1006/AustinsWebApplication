@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using GamePicker.Models;
 
 namespace GamePicker.Data
 {
@@ -9,5 +10,6 @@ namespace GamePicker.Data
             : base(options)
         {
         }
+        public DbSet<GamePicker.Models.Game> Game { get; set; } = default!;
     }
 }
