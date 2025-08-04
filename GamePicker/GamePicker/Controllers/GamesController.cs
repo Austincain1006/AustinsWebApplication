@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GamePicker.Data;
 using GamePicker.Models;
+using GamePicker.Services;
 
 namespace GamePicker.Controllers
 {
@@ -28,8 +29,9 @@ namespace GamePicker.Controllers
         // GET: Generate Games Page
         public async Task<IActionResult> GameDisplay()
         {
+            GamesDAO games = new GamesDAO();
 
-            return View(await _context.Game.ToListAsync());
+            return View(games.GetThreeRandomGames());
         }
 
         // GET: Games/Details/5
