@@ -153,5 +153,12 @@ namespace GamePicker.Controllers
         {
             return _context.Game.Any(e => e.Id == id);
         }
+
+        /*
+        public IActionResult Game()
+        {
+            return View();
+        }
+        */
     }
 }
