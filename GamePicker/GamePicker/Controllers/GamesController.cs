@@ -25,6 +25,13 @@ namespace GamePicker.Controllers
             return View(await _context.Game.ToListAsync());
         }
 
+        // GET: Generate Games Page
+        public async Task<IActionResult> GameDisplay()
+        {
+
+            return View(await _context.Game.ToListAsync());
+        }
+
         // GET: Games/Details/5
         public async Task<IActionResult> Details(int? id)
         {
