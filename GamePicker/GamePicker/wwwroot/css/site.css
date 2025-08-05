@@ -1,5 +1,7 @@
 html {
   font-size: 14px;
+  background-color: #121112;
+  color: #FFFFFF;
 }
 
 @media (min-width: 768px) {
@@ -18,5 +20,22 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #121112;
+    color: #FFFFFF;
+}
+
+.genBtn {
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 3px solid #000000;
+    width: 10%;
+    position: center;
+    margin: auto;
+    background-color: #ffffff;
+    
+}
+
+.blackText {
+    color: #000000;
 }
