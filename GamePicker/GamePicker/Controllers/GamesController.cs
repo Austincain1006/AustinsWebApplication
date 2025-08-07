@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace GamePicker.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    
     public class GamesController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -22,12 +22,14 @@ namespace GamePicker.Controllers
             _context = context;
         }
 
+        [Authorize(Roles = "Admin")]
         // GET: Games
         public async Task<IActionResult> Index()
         {
             return View(await _context.Game.ToListAsync());
         }
 
+        [Authorize]
         // GET: Generate Games Page
         public async Task<IActionResult> GameDisplay()
         {
@@ -36,6 +38,7 @@ namespace GamePicker.Controllers
             return View(games.GetThreeRandomGames());
         }
 
+        [Authorize(Roles = "Admin")]
         // GET: Games/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -54,6 +57,7 @@ namespace GamePicker.Controllers
             return View(game);
         }
 
+        [Authorize(Roles = "Admin")]
         // GET: Games/Create
         public IActionResult Create()
         {
@@ -63,6 +67,7 @@ namespace GamePicker.Controllers
         // POST: Games/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name")] Game game)
@@ -76,7 +81,9 @@ namespace GamePicker.Controllers
             return View(game);
         }
 
+       
         // GET: Games/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -95,6 +102,7 @@ namespace GamePicker.Controllers
         // POST: Games/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Game game)
@@ -128,6 +136,7 @@ namespace GamePicker.Controllers
         }
 
         // GET: Games/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -147,6 +156,7 @@ namespace GamePicker.Controllers
 
         // POST: Games/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -160,6 +170,7 @@ namespace GamePicker.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize]
         private bool GameExists(int id)
         {
             return _context.Game.Any(e => e.Id == id);
