@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace GamePicker.Controllers
 {
-    
+     
     public class GamesController : Controller
     {
         private readonly ApplicationDbContext _context;
