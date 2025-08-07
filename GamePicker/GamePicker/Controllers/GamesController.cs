@@ -8,9 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using GamePicker.Data;
 using GamePicker.Models;
 using GamePicker.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GamePicker.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class GamesController : Controller
     {
         private readonly ApplicationDbContext _context;
