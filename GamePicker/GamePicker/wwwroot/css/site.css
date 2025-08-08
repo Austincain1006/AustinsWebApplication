@@ -57,6 +57,10 @@ td, th {
     color: #000000;
 }
 
+.form-control:focus {
+    color: #000000;
+}
+
 form {
     color: #000000;
 }

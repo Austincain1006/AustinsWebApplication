@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DRTuHgWMVjaTlN5Hs+1m6sx4DZmG5Eodf+eL0ek0toY=",
+  "Hash": "EP0Ie5clGCTyagrI7zGdRsVc2NRiy3VO96UH9p30DoI=",
   "Source": "GamePicker",
   "BasePath": "_content/GamePicker",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "g3tscaaws8",
-      "Integrity": "tOkyCL99qFaHDevKVhSh5DVqnJQiT8kHoi5QJWrTPMM=",
+      "Fingerprint": "4t8pbr1esg",
+      "Integrity": "KEDyVakduwar9Wjr9WVuFAE51kymAMBpb9K9A7U9di0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "b0c2tcda93",
+      "Integrity": "S+Zfswa7o7FaUsIh3jVEnkrNf24zJ22sGwH0OS7CkYU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -2581,6 +2581,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.4t8pbr1esg.css",
+      "AssetFile": "C:\\Users\\austi\\Desktop\\EVERYTHING\\Professional\\Webapp\\AustinsWebApplication\\GamePicker\\GamePicker\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1039"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KEDyVakduwar9Wjr9WVuFAE51kymAMBpb9K9A7U9di0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Aug 2025 19:22:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4t8pbr1esg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KEDyVakduwar9Wjr9WVuFAE51kymAMBpb9K9A7U9di0="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\austi\\Desktop\\EVERYTHING\\Professional\\Webapp\\AustinsWebApplication\\GamePicker\\GamePicker\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2591,7 +2636,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "990"
+          "Value": "1039"
         },
         {
           "Name": "Content-Type",
@@ -2599,11 +2644,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tOkyCL99qFaHDevKVhSh5DVqnJQiT8kHoi5QJWrTPMM=\""
+          "Value": "\"KEDyVakduwar9Wjr9WVuFAE51kymAMBpb9K9A7U9di0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 07 Aug 2025 04:56:32 GMT"
+          "Value": "Fri, 08 Aug 2025 19:22:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2613,52 +2658,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tOkyCL99qFaHDevKVhSh5DVqnJQiT8kHoi5QJWrTPMM="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.g3tscaaws8.css",
-      "AssetFile": "C:\\Users\\austi\\Desktop\\EVERYTHING\\Professional\\Webapp\\AustinsWebApplication\\GamePicker\\GamePicker\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "990"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tOkyCL99qFaHDevKVhSh5DVqnJQiT8kHoi5QJWrTPMM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 07 Aug 2025 04:56:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "g3tscaaws8"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tOkyCL99qFaHDevKVhSh5DVqnJQiT8kHoi5QJWrTPMM="
+          "Value": "sha256-KEDyVakduwar9Wjr9WVuFAE51kymAMBpb9K9A7U9di0="
         }
       ]
     },
@@ -5129,6 +5129,51 @@
       ]
     },
     {
+      "Route": "js/site.b0c2tcda93.js",
+      "AssetFile": "C:\\Users\\austi\\Desktop\\EVERYTHING\\Professional\\Webapp\\AustinsWebApplication\\GamePicker\\GamePicker\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S+Zfswa7o7FaUsIh3jVEnkrNf24zJ22sGwH0OS7CkYU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Aug 2025 19:23:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b0c2tcda93"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S+Zfswa7o7FaUsIh3jVEnkrNf24zJ22sGwH0OS7CkYU="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\austi\\Desktop\\EVERYTHING\\Professional\\Webapp\\AustinsWebApplication\\GamePicker\\GamePicker\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -5139,7 +5184,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "440"
         },
         {
           "Name": "Content-Type",
@@ -5147,11 +5192,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"S+Zfswa7o7FaUsIh3jVEnkrNf24zJ22sGwH0OS7CkYU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 20:33:40 GMT"
+          "Value": "Fri, 08 Aug 2025 19:23:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5161,52 +5206,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\austi\\Desktop\\EVERYTHING\\Professional\\Webapp\\AustinsWebApplication\\GamePicker\\GamePicker\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 20:33:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-S+Zfswa7o7FaUsIh3jVEnkrNf24zJ22sGwH0OS7CkYU="
         }
       ]
     },
