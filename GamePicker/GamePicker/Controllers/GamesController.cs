@@ -29,7 +29,7 @@ namespace GamePicker.Controllers
             return View(await _context.Game.ToListAsync());
         }
 
-        [Authorize]
+        
         // GET: Generate Games Page
         public async Task<IActionResult> GameDisplay()
         {
@@ -170,7 +170,7 @@ namespace GamePicker.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [Authorize]
+        
         private bool GameExists(int id)
         {
             return _context.Game.Any(e => e.Id == id);
