@@ -1,0 +1,71 @@
+html {
+  font-size: 14px;
+  background-color: #121112;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    color: #FFFFFF;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    color: #FFFFFF;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #121112;
+    color: #FFFFFF;
+}
+
+.genBtn {
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 3px solid #000000;
+    width: 10%;
+    position: center;
+    margin: auto;
+    background-color: #ffffff;
+
+    
+}
+
+.blackText {
+    color: #000000;
+}
+
+td, th {
+    color: #ffffff;
+    
+}
+
+.container {
+    color: #FFFFFF;
+}
+
+.form-control {
+    color: #000000;
+}
+
+.form-control:focus {
+    color: #000000;
+}
+
+form {
+    color: #000000;
+}
+
+.profile-form {
+    color: #000000;
+}
+
