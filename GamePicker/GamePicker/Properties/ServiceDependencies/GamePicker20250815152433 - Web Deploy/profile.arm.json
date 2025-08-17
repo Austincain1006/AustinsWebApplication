@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "GamePicker20250808173503",
+      "defaultValue": "GamePicker20250815152433",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }
