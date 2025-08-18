@@ -295,3 +295,4 @@ C:\Users\austi\Desktop\EVERYTHING\Professional\Webapp\AustinsWebApplication\Game
 C:\Users\austi\Desktop\EVERYTHING\Professional\Webapp\AustinsWebApplication\GamePicker\GamePicker\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\austi\Desktop\EVERYTHING\Professional\Webapp\AustinsWebApplication\GamePicker\GamePicker\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\austi\Desktop\EVERYTHING\Professional\Webapp\AustinsWebApplication\GamePicker\GamePicker\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\austi\Desktop\EVERYTHING\Professional\Webapp\AustinsWebApplication\GamePicker\GamePicker\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
